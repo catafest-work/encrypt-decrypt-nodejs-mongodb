@@ -1,0 +1,19 @@
+{
+  "name": "encrypt-decrypt-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "encrypt decrypt string using NodeJs and Mongo DB ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "catafest",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.6.0"
+  }
+}
